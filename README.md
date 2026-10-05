@@ -16,7 +16,7 @@ Requiere [uv](https://docs.astral.sh/uv/).
 
 ```bash
 git clone https://github.com/Cristian335-creaty/neurona-riego-plantas.git
-cd neurona-riego-plantas
+cd neurona-riego-plantas/src/neurona-riego-plantas
 uv sync
 uv run main.py
 ```
@@ -161,7 +161,7 @@ Porque la sigmoide entrega un valor continuo (p. ej. 0.73), pero la decisión qu
 
 ```
 neurona-riego-plantas/
-├── neurona-riego-plantas/main.py           # Desarrollo de la neurona, experimentos y umbrales
+├── src/neurona-riego-plantas/main.py           # Desarrollo de la neurona, experimentos y umbrales
 ├── pyproject.toml    # Configuración del proyecto (uv)
 ├── uv.lock           # Versiones exactas de las dependencias
 ├── .python-version
